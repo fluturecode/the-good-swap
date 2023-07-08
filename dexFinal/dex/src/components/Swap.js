@@ -240,8 +240,10 @@ function Swap(props) {
             <DownOutlined />
           </div>
         </div>
-        <div className="swapButton" disabled={!tokenOneAmount || !isConnected} onClick={fetchDexSwap}>Swap</div>
-      </div>
+        <div className="carbonOffsetButton">Would you like to do some good?</div>
+        <a href="https://app.sunrisestake.com/stake"  className="swapButton">Offset Carbon and Swap</a>
+        <div className="swapButton">Donate and Swap</div>
+     </div>
     </>
   );
 }
